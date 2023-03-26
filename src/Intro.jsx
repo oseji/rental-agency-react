@@ -6,7 +6,7 @@ const Intro = () => {
       </h1>
 
       <div className="introMap">
-        <img src="\public\map.png" alt="map" className="map" />
+        <img src="map.png" alt="map" className="map" />
 
         <div className="mapSelection">
           <div className="mapDropdown">

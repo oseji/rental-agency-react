@@ -23,186 +23,194 @@ const ListOfProperties = () => {
       </div>
 
       <div className="cardContainer">
-        <div class="card">
+        <div className="card">
           <img
-            src="\public\firstcard.png"
+            src="firstcard.png"
             alt="San Francisco apartment"
-            class="cardImg"
+            className="cardImg"
           />
 
-          <div class="cardDetails">
-            <h2 class="cardHeading">
+          <div className="cardDetails">
+            <h2 className="cardHeading">
               2578 Folsom Street San Francisco, CA, 94110
             </h2>
-            <p class="cardText">Private room</p>
-            <p class="cardPrice">$1200/Month</p>
+            <p className="cardText">Private room</p>
+            <p className="cardPrice">$1200/Month</p>
           </div>
 
-          <div class="cardBottom">
-            <div class="cardBottom-Group">
-              <img src="\public\Bed.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+          <div className="cardBottom">
+            <div className="cardBottom-Group">
+              <img src="Bed.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Shower.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Shower.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Size.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Size.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
-            src="\public\firstcard.png"
+            src="firstcard.png"
             alt="San Francisco apartment"
-            class="cardImg"
+            className="cardImg"
           />
 
-          <div class="cardDetails">
-            <h2 class="cardHeading">
+          <div className="cardDetails">
+            <h2 className="cardHeading">
               2578 Folsom Street San Francisco, CA, 94110
             </h2>
-            <p class="cardText">Private room</p>
-            <p class="cardPrice">$1200/Month</p>
+            <p className="cardText">Private room</p>
+            <p className="cardPrice">$1200/Month</p>
           </div>
 
-          <div class="cardBottom">
-            <div class="cardBottom-Group">
-              <img src="\public\Bed.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+          <div className="cardBottom">
+            <div className="cardBottom-Group">
+              <img src="Bed.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Shower.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Shower.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Size.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Size.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
-            src="\public\firstcard.png"
+            src="firstcard.png"
             alt="San Francisco apartment"
-            class="cardImg"
+            className="cardImg"
           />
 
-          <div class="cardDetails">
-            <h2 class="cardHeading">
+          <div className="cardDetails">
+            <h2 className="cardHeading">
               2578 Folsom Street San Francisco, CA, 94110
             </h2>
-            <p class="cardText">Private room</p>
-            <p class="cardPrice">$1200/Month</p>
+            <p className="cardText">Private room</p>
+            <p className="cardPrice">$1200/Month</p>
           </div>
 
-          <div class="cardBottom">
-            <div class="cardBottom-Group">
-              <img src="\public\Bed.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+          <div className="cardBottom">
+            <div className="cardBottom-Group">
+              <img src="Bed.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Shower.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Shower.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Size.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Size.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
-            src="\public\firstcard.png"
+            src="firstcard.png"
             alt="San Francisco apartment"
-            class="cardImg"
+            className="cardImg"
           />
 
-          <div class="cardDetails">
-            <h2 class="cardHeading">
+          <div className="cardDetails">
+            <h2 className="cardHeading">
               2578 Folsom Street San Francisco, CA, 94110
             </h2>
-            <p class="cardText">Private room</p>
-            <p class="cardPrice">$1200/Month</p>
+            <p className="cardText">Private room</p>
+            <p className="cardPrice">$1200/Month</p>
           </div>
 
-          <div class="cardBottom">
-            <div class="cardBottom-Group">
-              <img src="\public\Bed.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+          <div className="cardBottom">
+            <div className="cardBottom-Group">
+              <img src="Bed.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Shower.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Shower.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Size.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Size.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
-            src="\public\firstcard.png"
+            src="firstcard.png"
             alt="San Francisco apartment"
-            class="cardImg"
+            className="cardImg"
           />
 
-          <div class="cardDetails">
-            <h2 class="cardHeading">
+          <div className="cardDetails">
+            <h2 className="cardHeading">
               2578 Folsom Street San Francisco, CA, 94110
             </h2>
-            <p class="cardText">Private room</p>
-            <p class="cardPrice">$1200/Month</p>
+            <p className="cardText">Private room</p>
+            <p className="cardPrice">$1200/Month</p>
           </div>
 
-          <div class="cardBottom">
-            <div class="cardBottom-Group">
-              <img src="\public\Bed.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+          <div className="cardBottom">
+            <div className="cardBottom-Group">
+              <img src="Bed.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Shower.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Shower.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Size.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Size.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
-            src="\public\firstcard.png"
+            src="firstcard.png"
             alt="San Francisco apartment"
-            class="cardImg"
+            className="cardImg"
           />
 
-          <div class="cardDetails">
-            <h2 class="cardHeading">
+          <div className="cardDetails">
+            <h2 className="cardHeading">
               2578 Folsom Street San Francisco, CA, 94110
             </h2>
-            <p class="cardText">Private room</p>
-            <p class="cardPrice">$1200/Month</p>
+            <p className="cardText">Private room</p>
+            <p className="cardPrice">$1200/Month</p>
           </div>
 
-          <div class="cardBottom">
-            <div class="cardBottom-Group">
-              <img src="\public\Bed.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+          <div className="cardBottom">
+            <div className="cardBottom-Group">
+              <img src="Bed.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Shower.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Shower.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
-            <div class="cardBottom-Group">
-              <img src="\public\Size.png" class="cardBottom-Icon" />
-              <p class="cardBottom-Number">2</p>
+            <div className="cardBottom-Group">
+              <img src="Size.png" className="cardBottom-Icon" />
+              <p className="cardBottom-Number">2</p>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="prev-nxt">
+        <p className="first prevNxtBtn">First</p>
+        <p className="numSelect prevNxtBtn">1</p>
+        <p className="numSelect prevNxtBtn">2</p>
+        <p className="numSelect prevNxtBtn">3</p>
+        <p className="next prevNxtBtn">Next</p>
       </div>
     </section>
   );

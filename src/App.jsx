@@ -4,6 +4,7 @@ import Intro from "./Intro";
 import SectionTwo from "./SectionTwo";
 import ListOfProperties from "./ListOfProperties";
 import SectionThree from "./sectionThree";
+import AddNewProperty from "./AddNewProperty";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SectionTwo></SectionTwo>
       <ListOfProperties></ListOfProperties>
       <SectionThree></SectionThree>
+      <AddNewProperty></AddNewProperty>
     </div>
   );
 }

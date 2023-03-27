@@ -34,7 +34,7 @@ const Intro = () => {
             </select>
           </div>
           <button className="map-dropdownBtn">
-            <img src="\public\search.png" className="mapSearch" />
+            <img src="search.png" className="mapSearch" />
           </button>
         </div>
       </div>

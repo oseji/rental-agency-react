@@ -11,16 +11,16 @@ const Navbar = () => {
         </li>
         <li className="navText">
           <a href="#" className="navLink">
-            Landlord
+            Landlords
           </a>
         </li>
         <li className="navText">
-          <a href="#" className="navLink">
-            Tenants
+          <a href="#section3" className="navLink">
+            Properties
           </a>
         </li>
         <li className="navText">
-          <a href="#" className="navLink">
+          <a href="#footer" className="navLink">
             Contact Us
           </a>
         </li>

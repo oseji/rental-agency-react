@@ -1,6 +1,16 @@
 * {
   margin: 0;
   font-family: "Arimo", sans-serif;
+  scroll-behavior: smooth;
+}
+
+select {
+  cursor: pointer;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /*NAVBAR*/
@@ -24,9 +34,7 @@
 
 .navText {
   list-style-type: none;
-  margin: 0 1.25rem;
   font-weight: 500;
-  padding: 20px 0;
   border-bottom: #fe8b17 2px solid;
   cursor: pointer;
   transition: ease-in-out 0.2s;
@@ -34,6 +42,12 @@
 
 .navText:hover {
   border-bottom: 2px solid white;
+}
+
+.navLink,
+.navText {
+  padding: 20px 0;
+  margin: 0 1rem;
 }
 
 .navLink {
@@ -158,6 +172,7 @@
 .icon-text {
   font-weight: 600;
   margin-top: 1.25rem;
+  text-transform: capitalize;
 }
 
 /*SECTION 3*/
@@ -319,7 +334,7 @@
 
 .section3Img {
   height: 20%;
-  width: 200px;
+  width: 12.5rem;
   transition: ease-in-out 0.3s;
 }
 
@@ -334,7 +349,7 @@
 
 .section3Heading {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 1.25rem;
 }
 
@@ -352,6 +367,7 @@
 .addPropHeading {
   text-align: center;
   margin-bottom: 1.25rem;
+  text-transform: capitalize;
 }
 
 .formSection {
@@ -382,7 +398,7 @@
 .inputGrp {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .inputLabel {
@@ -394,9 +410,9 @@
 }
 
 .inputField {
-  padding: 10px;
+  padding: 0.625rem;
   box-sizing: border-box;
-  width: 250px;
+  width: 15.625rem;
   border-radius: 0.5rem;
   border: 1px solid black;
   font-weight: 600;
@@ -415,4 +431,240 @@
   border: 0;
   border-radius: 0.5rem;
   color: #fff;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
 }
+
+.btnProperty:hover {
+  transform: scale(1.1);
+}
+
+/*REVIEWS*/
+.reviewSection {
+  height: auto;
+  padding: 3.125rem;
+}
+
+.reviewsGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 9.375rem;
+  overflow-x: scroll;
+  width: 70%;
+  margin: 2.5rem auto 0;
+  padding: 1.25rem;
+}
+
+.review {
+  width: 90%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: #f0efef;
+
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+}
+
+.reviewContainer {
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  opacity: 40%;
+}
+
+.reviewText {
+  padding: 1.875rem 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.875rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.profileName {
+  color: #fe8b17;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.status {
+  font-size: small;
+  font-weight: bold;
+}
+
+.slider {
+  width: 7.5rem;
+  margin: 40px auto 0;
+  padding: 0.625rem;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: ease-in-out 0.2s;
+}
+
+.slider:hover {
+  transform: scale(1.2);
+}
+
+.dot {
+  height: 1.1rem;
+  width: 1.1rem;
+  background-color: #bab8ba;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.dot:hover {
+  background-color: #fe8b17;
+}
+
+/*FOOTER*/
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 1.25rem 3.125rem;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #fff;
+}
+
+.footerIcon {
+  height: 20px;
+}
+
+.contactInfo {
+  width: 50%;
+}
+
+.footerText {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.socialInfo {
+  width: 50%;
+}
+
+.socialRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  margin: 20px 0;
+}
+
+.footerBottom {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem 0;
+}
+
+.bottomText-Grp {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomText {
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.bottomText:hover {
+  color: #fe8b17;
+}
+
+.copyright {
+  width: 50%;
+  text-align: center;
+}
+
+/*RESPONSIVE DESIGN -- TABLET*/
+@media only screen and (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 40px;
+  }
+
+  .introHeading {
+    width: 90%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  /*SECTION 2*/
+
+  .section2-Content {
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+  }
+
+  .section2-Points {
+    width: 90%;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 5rem;
+  }
+
+  .icon-flex-group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .icon-container {
+    width: 100%;
+  }
+
+  .icon {
+    margin: 0 auto;
+    display: block;
+    height: 5rem;
+  }
+
+  .icon-text {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  /*SECTION 3*/
+  .cardContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /*SECTION 4*/
+  .section4 {
+    padding: 5rem 3.125rem;
+    height: 100%;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  /*REVIEWS*/
+  .reviewsGroup {
+    width: 90%;
+  }
+}
+
+/*RESPONSIVE DESIGN -- PHONE*/

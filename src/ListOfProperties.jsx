@@ -1,6 +1,6 @@
 const ListOfProperties = () => {
   return (
-    <section className="section3">
+    <section className="section3" id="section3">
       <div
         style={{
           display: "flex",

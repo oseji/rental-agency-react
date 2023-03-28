@@ -1,7 +1,7 @@
 const Reviews = () => {
   return (
     <section className="reviewSection">
-      <h1 className="addPropHeading">Read about what our users have to say</h1>
+      <h1 className="smallHeading">Read about what our users have to say</h1>
       <div className="reviewsGroup">
         <div className="review">
           <div className="reviewContainer">

@@ -41,7 +41,7 @@ const sectionThree = () => {
           desire.
         </p>
 
-        <button className="section3-Btn">Search Rooms</button>
+        <button className="section4-Btn">Search Rooms</button>
       </div>
     </section>
   );

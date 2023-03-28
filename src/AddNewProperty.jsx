@@ -1,7 +1,7 @@
 const AddNewProperty = () => {
   return (
     <section className="addProperty">
-      <h1 className="addPropHeading">
+      <h1 className="smallHeading">
         Search For Your Property With Us And Be Confident That Your Room Will Be
         Filled Out.
       </h1>

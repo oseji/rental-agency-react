@@ -1,7 +1,10 @@
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h2 className="logo">MinimumLivingCost</h2>
+      <div className="logoHamburger">
+        <h2 className="logo">MinimumLivingCost</h2>
+        <img src="icon-hamburger.svg" alt="menu" className="hamburger" />
+      </div>
 
       <ul className="navList">
         <li className="navText">

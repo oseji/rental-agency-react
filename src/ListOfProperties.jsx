@@ -1,14 +1,7 @@
 const ListOfProperties = () => {
   return (
     <section className="section3" id="section3">
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          marginBottom: "2.5rem",
-        }}
-      >
+      <div className="addPropHeading">
         <h1 className="sectionHeading">
           <span
             style={{

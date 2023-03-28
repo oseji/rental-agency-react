@@ -14,7 +14,11 @@ const SectionTwo = () => {
       </h1>
 
       <div className="section2-Content">
-        <img src="unsplash_oGmf8o53LeE.png" alt="" className="section2-Img" />
+        <img
+          src="unsplash_oGmf8o53LeE.png"
+          alt="Nice view"
+          className="section2-Img"
+        />
         <div className="section2-Points">
           <div className="icon-flex-group">
             <div className="icon-container">
